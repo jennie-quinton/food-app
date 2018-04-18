@@ -12,10 +12,22 @@ export default class Page extends Component{
         };
     }
 
+    changeLocation = (e) => {
+        /* change location code here */
+        console.log('change location from ' + this.state.data.neighborhood);
+
+        /* setState({
+            data: newLocationData
+        } */
+    }
+
     render(){
         return (
-            <div>
-                <Location location={this.state.data.neighborhood}/>
+            <div className="content">
+                <Location 
+                    location={this.state.data.neighborhood} 
+                    changeLocation={this.changeLocation}
+                />
                 <Restaurants />
             </div>
         );

@@ -4,6 +4,7 @@
 .header{
     width: 100%;
     display: block;
+    height: 45px;
 }
 
 .header--left,

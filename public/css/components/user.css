@@ -10,13 +10,8 @@
     display: inline-block;
 }
 
-.user__img{
-    /* margin: 10px; */
-}
-
 .user__name{
-    margin: 0px 8px;
-    font-family: "adelle", "sans-serif";
+    margin-left: 8px;
     font-size: 14px;
 }
 
