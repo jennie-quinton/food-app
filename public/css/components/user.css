@@ -1,0 +1,27 @@
+/* ###############################
+    USER
+############################### */
+.user{
+    display: block;
+}
+
+.user__img,
+.user__name{
+    display: inline-block;
+}
+
+.user__img{
+    /* margin: 10px; */
+}
+
+.user__name{
+    margin: 0px 8px;
+    font-family: "adelle", "sans-serif";
+    font-size: 14px;
+}
+
+@media (max-width:480px){
+    .user__name{
+        display:none;
+    }
+}

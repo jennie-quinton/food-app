@@ -1,0 +1,31 @@
+/* ###############################
+    HEADER
+############################### */
+.header{
+    width: 100%;
+    display: block;
+}
+
+.header--left,
+.header--right{
+    padding: 10px 20px;
+}
+
+.header--left{
+    display: inline-block;
+}
+
+.header--right{
+    float: right;
+}
+
+.header__image{
+    height: 20px;
+}
+
+@media (max-width:480px){
+    .header__image{
+        position: absolute;
+        clip: rect(0px,20px, 200px,0px);
+    }
+}

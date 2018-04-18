@@ -1,0 +1,24 @@
+@font-face{
+    font-family:adelle;
+    src:url(https://consumer-component-library.roocdn.com/5.5.0/static/fonts/adelle-sans-regular.bfe4bdb2c036ad035c0e0d3f219e63c4.woff) 
+    format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:"swap"
+}
+@font-face{
+    font-family:adelle;
+    src:url(https://consumer-component-library.roocdn.com/5.5.0/static/fonts/adelle-sans-bold.c4e6574c2f1a793a32c6382bd0227ec6.woff) 
+    format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:"swap"
+}
+@font-face{
+    font-family:stratos;
+    src:url(https://consumer-component-library.roocdn.com/5.5.0/static/fonts/stratos-semibold.b472031ae924d67d8b0fbc2619a8c048.woff) 
+    format("woff");
+    font-weight:600;
+    font-style:normal;
+    font-display:"fallback"
+}
