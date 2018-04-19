@@ -15,8 +15,8 @@
     font-size: 14px;
 }
 
-@media (max-width:480px){
+@media (max-width: 480px){
     .user__name{
-        display:none;
+        display: none;
     }
 }

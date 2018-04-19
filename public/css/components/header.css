@@ -9,7 +9,7 @@
 
 .header--left,
 .header--right{
-    padding: 10px 20px;
+    padding: 10px 0;
 }
 
 .header--left{
@@ -24,7 +24,7 @@
     height: 20px;
 }
 
-@media (max-width:480px){
+@media (max-width: 480px){
     .header__image{
         position: absolute;
         clip: rect(0px,20px, 200px,0px);

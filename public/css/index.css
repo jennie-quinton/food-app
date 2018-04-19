@@ -2,17 +2,21 @@
 @import './components/header.css';
 @import './components/user.css';
 @import './components/hero.css';
+@import './components/restaurants.css';
+@import './components/restaurant.css';
 
 body{
     margin: 0px;
-    /* font-weight: 300;
-    font-family: "adelle","Helvetica Neue",Helvetica,Arial,"Microsoft YaHei","微软雅黑体","Hiragino Sans GB","冬青黑体",sans-serif;
-    color: #2e3333; */
 }
 
 p, h1, h2{
-    font-family: "adelle", "sans-serif";
+    font-family: adelle,sans-serif;
     font-weight: lighter;
     color: #2e3333;
     margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
 }

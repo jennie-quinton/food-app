@@ -23,12 +23,12 @@ export default class Page extends Component{
 
     render(){
         return (
-            <div className="content">
+            <div>
                 <Location 
-                    location={this.state.data.neighborhood} 
-                    changeLocation={this.changeLocation}
+                    location= {this.state.data.neighborhood} 
+                    changeLocation= {this.changeLocation}
                 />
-                <Restaurants />
+                <Restaurants restaurants= {this.state.data.restaurants}/>
             </div>
         );
     }

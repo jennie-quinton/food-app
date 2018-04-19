@@ -1,0 +1,27 @@
+.restaurant{
+    text-decoration: none;
+}
+
+.restaurant__image{
+    width: 100%;
+    height: auto;
+}
+
+.restaurant__name{
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.restaurant__tags{
+    font-size: 12px;
+}
+
+.restaurant__tags--seperator{
+    border-radius: 50%;
+    background-color: #2e3333;
+    width: 3px;
+    display: inline-block;
+    height: 3px;
+    vertical-align: middle;
+    margin: 0 5px;
+}

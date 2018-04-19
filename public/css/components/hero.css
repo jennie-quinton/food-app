@@ -1,13 +1,13 @@
 .hero{
     width: 100%;
     display: block;
-    background-color:#00CCBC;
+    background-color: #00CCBC;
     padding: 25px 0 10px;
 }
 
 .hero--left,
 .hero--right{
-    padding: 10px 20px;
+    padding: 10px 0;
 }
 
 /* if using sass would use a mixin to prevent duplicate code */
@@ -37,7 +37,7 @@
 
 @media (max-width:480px){
     .hero--right{
-        float:none;
-        padding-top:0;
+        float: none;
+        padding-top: 0;
     }
 }
