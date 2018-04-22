@@ -22,3 +22,18 @@
     font-style:normal;
     font-display:"fallback"
 }
+
+.font__adelle{
+    font-family: adelle, sans-serif;
+    font-weight: 400;
+}
+
+.font__adelle--bold{
+    font-family: adelle, sans-serif;
+    font-weight: 700;
+}
+
+.font__stratos{
+    font-family:stratos;
+    font-weight:600;
+}

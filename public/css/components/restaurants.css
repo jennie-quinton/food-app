@@ -5,10 +5,11 @@
 }
 
 .restaurants__list{
+    padding-top: 3px;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-row-gap: 30px;
-    grid-column-gap: 20px;
+    grid-row-gap: 21px;
+    grid-column-gap: 30px;
 }
 
 @media (max-width: 480px){
@@ -17,8 +18,9 @@
     }
 
     .restaurants__list{
-        margin-top: 20px;
+        margin-top: 13px;
         grid-template-columns: auto;
-        grid-row-gap: 20px;
+        grid-row-gap: 23px;
+        grid-column-gap: 0;
     }
 }

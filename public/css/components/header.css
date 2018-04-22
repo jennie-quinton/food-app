@@ -4,12 +4,9 @@
 .header{
     width: 100%;
     display: block;
-    height: 45px;
-}
-
-.header--left,
-.header--right{
-    padding: 10px 0;
+    height: 38px;
+    padding: 0 ;
+    padding-top: 10px;
 }
 
 .header--left{
@@ -21,12 +18,12 @@
 }
 
 .header__image{
-    height: 20px;
+    height: 30px;
 }
 
 @media (max-width: 480px){
     .header__image{
-        position: absolute;
-        clip: rect(0px,20px, 200px,0px);
+        height: 26px;
+        clip: rect(0px,28px, 200px,0px);
     }
 }

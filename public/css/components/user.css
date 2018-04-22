@@ -3,6 +3,7 @@
 ############################### */
 .user{
     display: block;
+    padding: 5px 0;
 }
 
 .user__img,
@@ -10,13 +11,23 @@
     display: inline-block;
 }
 
+.user__img{
+    height: 12px;
+}
+
 .user__name{
-    margin-left: 8px;
-    font-size: 14px;
+    margin-left: 7px;
+    font-size: 13px;
 }
 
 @media (max-width: 480px){
     .user__name{
         display: none;
     }
+
+    .user__img {
+        height: 17px;
+        margin-right: 5px;
+    }
 }
+

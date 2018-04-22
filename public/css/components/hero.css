@@ -2,12 +2,7 @@
     width: 100%;
     display: block;
     background-color: #00CCBC;
-    padding: 25px 0 10px;
-}
-
-.hero--left,
-.hero--right{
-    padding: 10px 0;
+    padding: 37px 0 34px;
 }
 
 /* if using sass would use a mixin to prevent duplicate code */
@@ -20,6 +15,7 @@
 }
 
 .hero__header{
+    margin-top: 2px;
     color: #fff;
     font-size: 28px;
 }
@@ -29,15 +25,35 @@
 }
 
 .hero__button{
+    margin-top: 8px;
     color: #00CCBC;
     border-color: #fff;
     border-radius: 2px;
-    padding: 8px 16px;
+    font-size: 12px;
+    padding: 9px 17px;
 }
 
 @media (max-width:480px){
+    .hero{
+        padding: 24px 0;
+    }
+
     .hero--right{
         float: none;
         padding-top: 0;
+    }
+
+    .hero__text{
+        font-size: 16px;
+    }
+
+    .hero__header{
+        font-size: 34px;
+    }
+
+    .hero__button{
+        font-size: 16px;
+        margin-top: 18px;
+        padding: 12px 18px;
     }
 }

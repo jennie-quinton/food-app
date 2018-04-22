@@ -4,24 +4,42 @@
 
 .restaurant__image{
     width: 100%;
-    height: auto;
+    height: 161px;
 }
 
 .restaurant__name{
-    margin: 5px 0;
+    margin-top: 2px;
     font-size: 18px;
 }
 
 .restaurant__tags{
+    margin-top: 3px;
     font-size: 12px;
+    color: #828585;
 }
 
 .restaurant__tags--seperator{
     border-radius: 50%;
-    background-color: #2e3333;
+    background-color: #828585;
     width: 3px;
     display: inline-block;
     height: 3px;
     vertical-align: middle;
     margin: 0 5px;
+}
+
+@media(max-width:768px){
+    .restaurant__image{
+        height: auto;
+    }
+
+    .restaurant__name {
+        margin-top: 9px;
+        font-size: 21px;
+    }
+
+    .restaurant__tags{
+        margin-top: 7px;
+        font-size: 14px;
+    }
 }
